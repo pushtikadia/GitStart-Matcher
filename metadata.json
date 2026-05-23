@@ -1,0 +1,6 @@
+{
+  "name": "Open Source Project Matcher",
+  "description": "Aspiring open-source contributors find tailored repositories and good-first-issues in their tech stack through a dynamic technical skill assessment quiz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
