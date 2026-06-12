@@ -3,17 +3,7 @@
 
   # 🎯 GitStart Matcher
 
-  <p align="center">
-    <a href="https://github.com/pushtikadia/GitStart-Matcher/stargazers">
-      <img src="https://img.shields.io/github/stars/pushtikadia/GitStart-Matcher?style=for-the-badge&color=FFD700&labelColor=1E1E24&logo=github" alt="Stars"/>
-    </a>
-    <a href="https://github.com/pushtikadia/GitStart-Matcher/network/members">
-      <img src="https://img.shields.io/github/forks/pushtikadia/GitStart-Matcher?style=for-the-badge&color=00ADB5&labelColor=1E1E24&logo=git" alt="Forks"/>
-    </a>
-    <a href="https://github.com/pushtikadia/GitStart-Matcher/issues">
-      <img src="https://img.shields.io/github/issues/pushtikadia/GitStart-Matcher?style=for-the-badge&color=FF4A4A&labelColor=1E1E24&logo=github" alt="Issues"/>
-    </a>
-  </p>
+ 
 
   🗣️ **An Intelligent, High-Performance AI-Driven Matchmaking Engine Layout**
 
