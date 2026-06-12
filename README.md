@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🎯 GitStart Matcher
 
-# Run and deploy your AI Studio app
+<p align="center">
+  <img src="https://img.shields.io/github/stars/pushtikadia/GitStart-Matcher?style=for-the-badge&color=FFE15D&logo=github" alt="GitHub Stars"/>
+  <img src="https://img.shields.io/github/forks/pushtikadia/GitStart-Matcher?style=for-the-badge&color=93B1A6&logo=git" alt="GitHub Forks"/>
+  <img src="https://img.shields.io/github/issues/pushtikadia/GitStart-Matcher?style=for-the-badge&color=E76161&logo=github" alt="GitHub Issues"/>
+  <img src="https://img.shields.io/github/license/pushtikadia/GitStart-Matcher?style=for-the-badge&color=4G4G4G" alt="License"/>
+</p>
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/9a90cd2e-08d4-4632-b013-201e174011a5
+## 📖 Overview
+**GitStart Matcher** is a high-performance, intelligent matchmaking engine designed to bridge structural operational data profiles with localized project assignments. Engineered with algorithmic optimization, it maps candidate skill weights, repository telemetry tags, and timeline horizons to generate precise matching matrix indices.
 
-## Run Locally
+### ✨ Key Features
+* ⚡ **Real-time Scoring Algorithm:** Processes multidimensional vectors to compute similarity indexes instantly.
+* 🛡️ **Race-Condition Safe Execution:** Built on robust asynchronous transactional hooks protecting core runtime states.
+* 🌐 **Intuitive Control Interface:** Minimalist, hand-drawn UI aesthetic prioritizing developer ergonomics.
+* 📦 **Flexible Schema Mapping:** Built to seamlessly hook into diverse repository environments or microservice webhooks.
 
-**Prerequisites:**  Node.js
+---
 
+## 🗺️ System Architecture
+Below is the structural layout demonstrating data collection pipeline flows down to the core parsing execution layer:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+       [ User Profile / Telemetry ]       [ Target Task Inputs ]
+                    │                                │
+                    ▼                                ▼
+         ┌──────────────────────────────────────────────────────┐
+         │              Data Sanitization & Ingestion           │
+         └──────────────────────┬───────────────────────────────┘
+                                │
+                                ▼
+         ┌──────────────────────────────────────────────────────┐
+         │             GitStart Matching Scoring Engine         │
+         │          (Weights Matrix / Vector Evaluation)        │
+         └──────────────────────┬───────────────────────────────┘
+                                │
+                                ▼
+                    [ Optimized Priority Match Queue ]
